@@ -1,0 +1,41 @@
+.card {
+  border-radius: 6px;
+  box-shadow: 0 8px 3px 0 rgba(0, 0, 0, 0.295), 0 1px 2px 0 rgba(0, 0, 0, 0.589);
+}
+
+.card:hover {
+  transition: ease 1s;
+  transform: scale(1.02);
+}
+.card .card-action {
+  transition: 0.5s ease;
+  display: none;
+}
+
+.card .card-title {
+  transition: 0.5s ease;
+  display: none;
+}
+
+.card:hover .card-title {
+  display: inline;
+}
+
+.card p {
+  transition: 0.5s ease;
+  display: none;
+}
+
+.card:hover .card-action {
+  transition: ease 1s;
+  display: block;
+}
+
+.card:hover p {
+  transition: ease 0.5s;
+  display: inline;
+}
+
+.card:hover .card-action {
+  color: blue;
+}
